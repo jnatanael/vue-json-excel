@@ -1,5 +1,5 @@
 {
-  "name": "vue-json-excel",
+  "name": "vue-json-excel-atelie",
   "version": "0.3",
   "description": "Download your JSON as an excel or CSV file directly from the browser",
   "main": "JsonExcel.vue",
@@ -23,7 +23,7 @@
     "download",
     "component"
   ],
-  "author": "Jose Javier Espinoza",
+  "author": "José Natanael Reis",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jnatanael/vue-json-excel/issues"
