@@ -26,7 +26,7 @@ export default {
     },
     // fields inside the Json Object that you want to export
     // if no given, all the properties in the Json are exported
-    fields: {
+    jfields: {
       type: Object,
       required: false
     },
@@ -83,7 +83,7 @@ export default {
     },
 
     downloadFields() {
-      if (this.fields !== undefined) return this.fields;
+      if (this.jfields !== undefined) return this.jfields;
 
       if (this.exportFields !== undefined) return this.exportFields;
     }
